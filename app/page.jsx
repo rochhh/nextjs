@@ -6,9 +6,9 @@ const page = () => {
     
     
       <div>
-        what
+        Commit through Github test 
       </div>
-    </ErrorBoundary>
+
   )
 }
 
