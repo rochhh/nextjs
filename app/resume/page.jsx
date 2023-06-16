@@ -2,7 +2,11 @@ import React from 'react'
 
 const resume = () => {
   return (
-    <div>resume</div>
+    <div>
+      <div>
+        
+      </div>
+    </div>
   )
 }
 

@@ -8,6 +8,28 @@ body{
 
 }
 
+.changePos{
+    position:fixed;
+    left: 70%;
+    top: 12%;
+}
+
+.exp{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: disc;
+    color: #666;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
 .bien{
     justify-content: center;
     height: 250px;
@@ -41,3 +63,38 @@ body{
     margin-left: 100px;
     margin-right: 50px;
 }
+
+.disp{
+    display: inline;
+}
+
+
+.arrow-list {
+    list-style-type: none;
+    padding-left: 0; /* Optional, to remove default indentation */
+    color: seagreen;
+  }
+  
+  .arrow-list li {
+    position: relative;
+    padding-left: 20px; /* Adjust the value as needed */
+  }
+  
+  .arrow-list li::before {
+    content: "";
+    position: absolute;
+    top: 10px; /* Adjust the value to vertically center the arrow */
+    left: 0;
+    width: 7px; /* Adjust the size of the arrow */
+    height: 7px; /* Adjust the size of the arrow */
+    border-top: 2px solid black; /* Adjust the color and thickness of the arrow */
+    border-right: 2px solid black; /* Adjust the color and thickness of the arrow */
+    transform: rotate(45deg); /* Rotate the arrow to point diagonally */
+  }
+
+
+  .navbarBorder{
+    border-bottom: 1px solid rgb(203 213 225);
+
+  }
+  
