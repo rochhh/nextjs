@@ -15,14 +15,7 @@ const page = () => {
 
   return ( 
       <div>
-        <div className='flex flex-wrap items-center  px-4 py-2  mx-auto bg-emerald-500  ' >
-          <nav className=' flex bg-emerald-500 justify-center ' >
-            <Link href="/roch" className=' self-center font-semibold text-lg ml-20 mr-20 py-4 px-6 text-white hover:text-emerald-700 ' > Roch </Link>
-            <Link href="/exp" className=' font-semibold text-lg ml-20 mr-20 py-4 px-6 text-white hover:text-emerald-700 ' >Experience </Link>
-            <Link href="/resume" className=' font-semibold text-lg ml-20 mr-20 py-4 px-6 text-white hover:text-emerald-700 ' > Resume </Link>
-            <Link href="/contact" className=' font-semibold text-lg ml-20 mr-20 py-4 px-6 text-white hover:text-emerald-700 ' > Contact </Link>
-          </nav>
-        </div>
+       
       </div>
   )
 }
