@@ -17,9 +17,9 @@ const page = () => {
       <div>
        <div className='container mx-auto sticky top-0 ' >
         <div className='bien' >
-            <p id='p1'   >Bienvenue 👋 </p>
-            <p id='p2'> I'm Rochishnu</p>
-            <p id='p3'>❤️ Tech  </p>
+            <p id='p1' >Bienvenue 👋; </p>
+            <p id='p2'> I'm Rochishnu;</p>
+            <p id='p3'> Tech ❤️; </p>
         </div>
         <div className='about' > 
             <div className='container' >
